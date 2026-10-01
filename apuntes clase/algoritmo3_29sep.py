@@ -1,3 +1,4 @@
+#liza romero
 #vendedor quiere saber cuanto dinero obtendra por comision y sueldo#
 
 print("ingrese sueldo basico: ")
