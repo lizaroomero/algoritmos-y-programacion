@@ -1,3 +1,4 @@
+#liza romero
 #nombre completo
 #declaracion de variables: no existe
 #cadena: str
