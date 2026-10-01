@@ -1,3 +1,4 @@
+#liza romero
 porCom = 10
 print ("sueldo basico: ")
 suebas = float(input())
