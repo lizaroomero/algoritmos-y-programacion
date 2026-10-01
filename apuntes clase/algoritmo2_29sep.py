@@ -1,3 +1,4 @@
+#liza romero 
 """solicitar edad de una persona y clasificarlos de acuerdo a lo siguiente:
 niño- menores de 12 años
 adolescente- mayor o igual a 12 y menores a 18
