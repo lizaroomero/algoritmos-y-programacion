@@ -1,3 +1,4 @@
+#liza romero
 totalbruto= int(input("ingresa el costo total de tus compras"))
 totalneto= 0.0
 porcdescuento= 0.0
