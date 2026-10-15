@@ -1,4 +1,5 @@
 //apunte arreglos con ciclos
+//liza romero
 #include <iostream>
 using namespace std;
 
