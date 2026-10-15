@@ -13,4 +13,6 @@ for i in range(3):
         #3
         for i in ("galia", "maria", "elian" ):
             print("hola", i)
+
+            print()
             
