@@ -1,5 +1,23 @@
 {
+    "version": "2.0.0",
     "tasks": [
+        {
+            "label": "Compilar C++",
+            "type": "shell",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
         {
             "type": "cppbuild",
             "label": "C/C++: clang compilar archivo activo",
@@ -18,7 +36,10 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "detail": "Tarea generada por el depurador."
         },
         {
@@ -43,8 +64,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "compilador: /usr/bin/clang"
+            "detail": "compilador: /usr/bin/clang++"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
